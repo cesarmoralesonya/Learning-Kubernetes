@@ -19,7 +19,9 @@ kubectl patch deployment metrics-server -n kube-system --type 'json' -p '[{"op":
 ```
 
 # Run the Kubectl proxy to allow accessing the dashboard
+```powershell
 kubectl proxy
+```
 
 # Get secret
 ```powershell
